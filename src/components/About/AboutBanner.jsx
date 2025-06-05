@@ -1,8 +1,8 @@
-import bg from "./../../assets/image/home/herobanners.jpg";
+import bg from "./../../assets/image/about/aboutbanner.jpg";
 
 // import { GradualSpacing } from "../animaition/GradualSpacing";
 
-const HeroBanner = () => {
+const AboutBanner = () => {
   return (
     <div
       className="px-5 mx-auto min-h-[100vh] flex items-end"
@@ -14,17 +14,12 @@ const HeroBanner = () => {
       }}
     >
       <div className="mb-20 px-10">
-        <p className="banner-text text-white">
-          To grow with Myanmar, <br /> build for Myanmar, and <br /> shape a
-          brighter future
+        <p className="banner-text text-primary">
+          <span className="font-semibold">OK Group Of Companies</span>
         </p>
-
-        <button className="bg-white text-primary mt-2 button">
-          Let’s shape Together
-        </button>
       </div>
     </div>
   );
 };
 
-export default HeroBanner;
+export default AboutBanner;

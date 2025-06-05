@@ -3,7 +3,6 @@ import { Link, NavLink } from "react-router-dom";
 import { IoMenuSharp } from "react-icons/io5";
 import { IoClose } from "react-icons/io5";
 import logo from "./../../assets/image/logo.svg";
-import { FaFacebookMessenger } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +13,7 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="md:mx-10 bg-white mx-auto flex items-center justify-between py-5 md:py-4 px-5 md:px-8 lg:px-10 md:rounded-full">
+      <div className="bg-white/30 backdrop-blur-md mx-auto flex items-center py-5 justify-between px-40">
         {/* Logo */}
         <Link to="/" className="">
           <img src={logo} alt="Logo" className="w-20 md:w-14" />
@@ -26,8 +25,8 @@ const Navbar = () => {
             to="/"
             className={({ isActive }) =>
               isActive
-                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                ? "text-primary text-[14px] lg:text-[18px] font-semibold hover:translate-y-[-2px] transition-all duration-300"
+                : "text-[14px] lg:text-[18px] font-semibold text-white hover:translate-y-[-2px] transition-all duration-300"
             }
           >
             Home
@@ -36,44 +35,32 @@ const Navbar = () => {
             to="/about"
             className={({ isActive }) =>
               isActive
-                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:translate-y-[-2px] transition-all duration-300"
+                : "text-[14px] lg:text-[18px] font-semibold text-white hover:translate-y-[-2px] transition-all duration-300"
             }
           >
-            About Us
+            About OK Group Of Companies
           </NavLink>
           <NavLink
             to="/service"
             className={({ isActive }) =>
               isActive
-                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:translate-y-[-2px] transition-all duration-300"
+                : "text-[14px] lg:text-[18px] font-semibold text-white hover:translate-y-[-2px] transition-all duration-300"
             }
           >
-            Services
+            Our Business
           </NavLink>
           <NavLink
             to="/contact"
             className={({ isActive }) =>
               isActive
-                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:text-green-600"
-                : "text-[14px] lg:text-[18px] font-semibold text-gray-400 hover:text-green-600"
+                ? "text-primary text-[14px] lg:text-[18px] font-semibold text-gray-800 hover:translate-y-[-2px] transition-all duration-300"
+                : "text-[14px] lg:text-[18px] font-semibold text-white hover:translate-y-[-2px] transition-all duration-300"
             }
           >
-            Contact Us
+            Contact
           </NavLink>
-        </div>
-
-        {/* Language Selector and Button */}
-        <div className="hidden md:block items-center">
-          {/* <span className="text-gray-800">MYA / EN</span> */}
-          <a
-            href="https://m.me/197568866770556?source=qr_link_share"
-            className="open-sans inline-flex items-center bg-primary font-bold lg:text-[20px] font-bold text-white py-3 px-6 lg:py-6 lg:px-10 rounded-full hover:scale-105 hover:shadow-lg shadow-primary transition duration-300 ease-in-out"
-          >
-            We’re Here to Help
-            <FaFacebookMessenger className="inline-block ml-2" />
-          </a>
         </div>
 
         {/* Mobile Menu Button */}
@@ -98,8 +85,8 @@ const Navbar = () => {
               onClick={toggleMenu}
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-lg font-semibold text-gray-800 hover:text-green-600"
-                  : "text-black text-lg font-semibold text-gray-800 hover:text-green-600"
+                  ? "text-primary text-lg font-semibold text-gray-800 hover:scale-102"
+                  : "text-black text-lg font-semibold text-gray-800 hover:scale-102"
               }
             >
               Home
@@ -109,8 +96,8 @@ const Navbar = () => {
               onClick={toggleMenu}
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-lg font-semibold text-gray-800 hover:text-green-600"
-                  : "text-black text-lg font-semibold text-gray-800 hover:text-green-600"
+                  ? "text-primary text-lg font-semibold text-gray-800 hover:scale-102"
+                  : "text-black text-lg font-semibold text-gray-800 hover:scale-102"
               }
             >
               About Us
@@ -120,8 +107,8 @@ const Navbar = () => {
               onClick={toggleMenu}
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-lg font-semibold text-gray-800 hover:text-green-600"
-                  : "text-black text-lg font-semibold text-gray-800 hover:text-green-600"
+                  ? "text-primary text-lg font-semibold text-gray-800 hover:scale-102"
+                  : "text-black text-lg font-semibold text-gray-800 hover:scale-102"
               }
             >
               Services
@@ -131,8 +118,8 @@ const Navbar = () => {
               onClick={toggleMenu}
               className={({ isActive }) =>
                 isActive
-                  ? "text-primary text-lg font-semibold text-gray-800 hover:text-green-600"
-                  : "text-black text-lg font-semibold text-gray-800 hover:text-green-600"
+                  ? "text-primary text-lg font-semibold text-gray-800 hover:scale-102"
+                  : "text-black text-lg font-semibold text-gray-800 hover:scale-102"
               }
             >
               Contact Us

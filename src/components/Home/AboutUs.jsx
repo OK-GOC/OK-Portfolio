@@ -1,79 +1,48 @@
-// import { useState } from "react";
-// import { motion } from "framer-motion";
-// import Skeleton from "react-loading-skeleton"; // Import the skeleton loader
-import elder from "./../../assets/image/service/eldercare.jpg";
-import infant from "./../../assets/image/service/newborn.jpg";
-import hospital from "./../../assets/image/service/hospitalCare.jpg";
-import newborn from "./../../assets/image/service/childCare.jpg";
-import icon1 from "./../../assets/image/service/newborn_care_icon.svg";
-import icon2 from "./../../assets/image/service/family_star.svg";
-import icon3 from "./../../assets/image/service/hospital_care_icon.svg";
-import icon4 from "./../../assets/image/service/elder_care_icon.svg";
-// import { FaBaby, FaChild, FaHospitalAlt, FaUserFriends } from "react-icons/fa";
+import about1 from "./../../assets/image/home/about1.jpg";
+import about2 from "./../../assets/image/home/about2.jpg";
 
-export const services = {
-  InfantCare: {
-    icon: icon1,
-    image: newborn,
-    title: "Newborn Care",
-    description:
-      "“Our caregivers provide gentle and nurturing care for infants, ensuring safety and well-being”",
-  },
-  childCare: {
-    icon: icon2,
-    image: infant,
-    title: "Child Care",
-    description:
-      "“Reliable and compassionate childcare services, providing parents peace of mind knowing their children are in safe hands.”",
-  },
-  hospitalCare: {
-    icon: icon3,
-    image: hospital,
-    title: "Hospital Companion Care",
-    description:
-      "“We offer companionship and support for those in hospital settings, making recovery less lonely and more comfortable”",
-  },
-  elderCare: {
-    icon: icon4,
-    image: elder,
-    title: "Elder Care",
-    description:
-      "“We offer warm, attentive support for seniors, assisting with daily tasks to maintain comfort and independence at home.”",
-  },
-};
-
-const AboutUs = ({ classData }) => {
+const AboutUs = () => {
   return (
-    <div className="container px-5 mx-auto pt-[64px] lg:w-[1000px]">
-      <div className={`${classData} mx-auto`}>
-        <p className="header-text font-bold md:text-center">
-          Trusted Care for Every Stage of Life
-        </p>
-        <p className="body-text sourcesans mx-auto md:text-center mt-5">
-          Whether you need daily support or occasional assistance, <br /> our
-          care services are designed to provide your family with <br />{" "}
-          dependable, nurturing care.
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-20">
-        {Object.entries(services).map(([service, data]) => (
-          <div
-            key={service}
-            className="flex flex-col justify-between items-center bg-sub rounded-lg shadow-lg px-4 py-10 hover:shadow-xl transition-shadow duration-300"
-          >
-            <div className="flex items-center justify-center">
-              <div className="w-16 h-16 flex items-center justify-center rounded-3xl bg-pridark text-white">
-                <img src={data.icon} />
-              </div>
-            </div>
-            <div className="mt-4">
-              <h3 className="text-[14px] font-semibold mb-5">{data.title}</h3>
-            </div>
-            <button className="bg-white open-sans truncate w-[200px] overflow-hidden text-primary text-sm font-bold px-4 py-4 rounded-full mt-4 hover:bg-primary hover:text-white transition-colors duration-300">
-              <p className="">Personalize Care Plan</p>
-            </button>
+    <div className="sections">
+      <div className="md:flex items-center w-full mb-2">
+        <div className="w-full md:w-1/2">
+          <div className="max-w-md">
+            <p className="header-text">OK GROUP OF COMPANIES</p>
+            <p className="body-text">
+              OEstablished in 2002 and headquartered at No. B (3/5), Mali Kha
+              Housing, Bawamyine Ward, Thingangyun Township, Yangon Region, is
+              dedicated to providing dependable, responsible, and high-quality
+              services across Myanmar.
+            </p>
           </div>
-        ))}
+        </div>
+        <div className="w-full md:w-1/2 flex items-center justify-center">
+          <img src={about1} alt="Mission" className="rounded-lg object-cover" />
+        </div>
+      </div>
+
+      <div className="mt-10 md:mt-20">
+        <div className="flex items-center">
+          <div className="w-1/3">
+            <img src={about2} alt="Vision" className="w-full" />
+          </div>
+          <div className="w-2/3 body-text ml-10 ">
+            <p className="font-semibold">
+              With a strong vision to become a trusted industry leader
+              supporting national development, the company focuses on
+              government-related projects-especially in public infrastructure,
+              construction, industrial facilities and energy.
+            </p>
+            <br />
+            <p className="font-semibold">
+              Currently, OK GROUP OF COMPANIES is carrying out a floating solar
+              power project and working closely with the government on
+              electricity distribution. The company is also building strategic
+              partnerships with international firms through joint ventures to
+              expand its reach and capabilities.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Sofia Pro";
-  src: local("CHANGANUNITYPE-BOLD"),
+  font-family: "Poppins";
+  src: local("Poppins"),
     url("./assets/Fonts/Poppins-Regular.ttf") format("truetype");
 }
 
@@ -25,10 +25,10 @@ html {
 }
 
 body {
-  background: #ecf8ed;
+  /* background: #ecf8ed; */
   scroll-behavior: smooth;
   color: black;
-  font-family: "Sofia Pro";
+  font-family: "Poppins";
 }
 
 .open-sans {
@@ -39,34 +39,22 @@ body {
   font-family: "Source Sans 3";
 }
 
+.sections {
+  @apply px-10 lg:px-20 py-20;
+}
+
+.banner-text {
+  @apply text-[24px] lg:text-[40px] font-medium;
+}
+
 .header-text {
-  @apply text-header md:text-[24px] lg:text-[42px] text-pridark;
-  color: "#1C1C1C";
+  @apply text-[20px] md:text-[24px] lg:text-[48px] text-primary font-semibold;
 }
 
 .body-text {
-  @apply text-body md:text-[18px] lg:text-[24px];
-  color: "#565656";
+  @apply text-[16px] md:text-[18px] lg:text-[20px] font-medium;
 }
 
-.card-header {
-  @apply text-cardheader md:text-[18px] lg:text-[24px];
-}
-
-.card-body {
-  @apply text-cardbody md:text-[14px] lg:text-[16px];
-}
-
-/* styles.css */
-.custom-gradient {
-  background: linear-gradient(90deg, #ecf8ed 0%, #319639 25%, #1e5c23 100%);
-  padding: 1rem;
-  text-align: center;
-}
-
-@media (max-width: 767px) {
-  .custom-gradient {
-    background: linear-gradient(180deg, #ecf8ed 10%, #319639 55%, #1e5c23 100%);
-    padding: 0.5rem;
-  }
+.button {
+  @apply px-7 py-2.5 rounded-xl font-semibold;
 }

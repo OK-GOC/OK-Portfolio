@@ -1,21 +1,10 @@
-import GoalsAndAspirations from "../components/About/GoalsAndAspirations ";
-// import TeamSection from "../components/About/TeamSection";
-// import Footer from "../components/Footer";
-import Accordion from "../components/Home/Accordian";
-import CaregiverSection from "../components/Home/CaregiverSection";
-// import Collaborate from "../components/Home/Collaborate";
-import Testmonial from "../components/Home/testmonial/Testmonial";
-
+import AboutBanner from "../components/About/AboutBanner";
+import AboutCompany from "../components/About/AboutCompany";
 function About() {
   return (
     <div>
-      {/* <TeamSection /> */}
-      {/* <Collaborate /> */}
-      <GoalsAndAspirations />
-      <Testmonial />
-      <CaregiverSection classData="bg-gradient-to-b from-white to-green-900" />
-      <Accordion />
-      {/* <Footer classData="bg-footer" /> */}
+      <AboutBanner />
+      <AboutCompany />
     </div>
   );
 }
