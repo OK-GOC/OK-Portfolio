@@ -25,7 +25,23 @@ const AboutCompany = () => {
           </p>
         </div>
       </div>
-      <div></div>
+      <div className="mt-10 text-[20px] font-semibold">
+        <p>
+          As we expand into new sectors and continue strengthening our current
+          operations, we remain deeply rooted in our responsibility to uplift
+          communities and create a better future for the next generation.
+          Whether we are powering homes through solar energy, training skilled
+          workers, developing infrastructure, or supplying essential goods and
+          services, our focus remains on sustainable, ethical, and people-driven
+          growth.
+        </p>
+        <br />
+        <p>
+          We are proud to grow with Myanmar – shaping industries, empowering
+          lives, and helping build a nation that thrives. Thank you for being
+          part of our journey.
+        </p>
+      </div>
     </div>
   );
 };
