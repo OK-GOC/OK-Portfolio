@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import { AnimatePresence } from "framer-motion";
 import ScrollToTop from "./ScrollToTop";
 import { Analytics } from "@vercel/analytics/react";
+import Service from "./pages/Service";
 // import About from "./pages/About";
 // import Service from "./pages/Service";
 // import PageNotFound from "./pages/PageNotFound";
@@ -36,6 +37,15 @@ function App() {
               element={
                 <PageTransition>
                   <About />
+                </PageTransition>
+              }
+            />
+
+            <Route
+              path="/service/:id"
+              element={
+                <PageTransition>
+                  <Service />
                 </PageTransition>
               }
             />
