@@ -44,11 +44,11 @@ export default function ServicePartaner() {
         </div>
       </div>
       <div className="sections">
-        <div className="flex">
-          <div className="w-[55%] mr-20">
+        <div className="flex flex-col md:flex-row">
+          <div className="w-full md:w-[55%] md:mr-20 md:mb-0 mb-5">
             <img src={partaner} alt="aboutone" className=" rounded-lg" />
           </div>
-          <div className="w-[45%] flex justify-center items-center">
+          <div className="w-full md:w-[45%] flex justify-center items-center">
             <div>
               <h1 className="header-text">Gold Mine Company Limited</h1>
               <p className="body-text mt-5">

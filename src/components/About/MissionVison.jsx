@@ -3,8 +3,8 @@ import { TbTargetArrow } from "react-icons/tb";
 const MissionVison = () => {
   return (
     <div className="sections">
-      <div className="flex gap-20 max-w-5xl mx-auto">
-        <div className="w-1/2">
+      <div className="flex flex-col md:flex-row gap-20 max-w-5xl mx-auto">
+        <div className="w-full md:w-1/2">
           <h1 className="flex items-center gap-2 header-text">
             <TiEye /> <span>Our Vision</span>
           </h1>
@@ -21,7 +21,7 @@ const MissionVison = () => {
             the lives of those we serve.
           </p>
         </div>
-        <div className="w-1/2">
+        <div className="w-full md:w-1/2">
           <h1 className="flex items-center gap-2 header-text">
             <TbTargetArrow /> <span>Our Mission</span>
           </h1>

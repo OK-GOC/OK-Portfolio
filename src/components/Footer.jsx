@@ -5,21 +5,21 @@ import { FaFacebook, FaViber } from "react-icons/fa";
 const Footer = () => {
   return (
     <footer className="sections bg-white">
-      <div className="mx-auto flex flex-col lg:flex-row">
+      <div className="mx-auto flex flex-col md:flex-row">
         <div className="flex flex-col w-full">
           <div className="flex items-center gap-4">
             <img src={logo} alt="Logo" className=" " />
-            <p className="uppercase text-[28px] font-semibold text-primary">
+            <p className="uppercase text-[20px] md:text-[24px] lg:text-[28px] font-semibold text-primary">
               Ok Group of Companies
             </p>
           </div>
-          <p className="text-[20px] font-semibold text-primary mt-5">
+          <p className="text-[16px] md:text-[18px] lg:text-[20px] font-semibold text-primary mt-5">
             NoB(3/5),Malikha Housing , Yadanar Main Road, Thingangyun Tsp,Yangon
           </p>
         </div>
 
-        <div className="flex w-full flex-col md:flex-row mt-10 lg:mt-0">
-          <div className="flex flex-col w-full justify-end items-end">
+        <div className="flex w-full flex-col md:flex-row mt-10 md:mt-0">
+          <div className="flex flex-col w-full justify-end md:items-end">
             <div>
               <h2 className="text-[18px] font-semibold text-primary">
                 Useful Links
@@ -64,20 +64,22 @@ const Footer = () => {
               <h2 className="text-[18px] text-primary font-semibold">
                 Visit Us On
               </h2>
-              <p className="mt-5 font-medium text-primary text-[12px]">
-                <p className="flex items-center gap-5">
-                  <FaFacebook /> <span>Facebook</span>
+              <div className="flex flex-row md:flex-col gap-10">
+                <p className="mt-5 font-medium text-primary text-[12px]">
+                  <p className="flex items-center gap-5">
+                    <FaFacebook /> <span>Facebook</span>
+                  </p>
                 </p>
-              </p>
-              <p className="mt-5 font-medium text-primary text-[12px]">
-                <a
-                  href="mailto:carenekontact@mail.com"
-                  className="hover:text-green-300 flex items-center gap-5"
-                >
-                  <FaViber />
-                  Viber
-                </a>
-              </p>
+                <p className="mt-5 font-medium text-primary text-[12px]">
+                  <a
+                    href="mailto:carenekontact@mail.com"
+                    className="hover:text-green-300 flex items-center gap-5"
+                  >
+                    <FaViber />
+                    Viber
+                  </a>
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -13,7 +13,7 @@ const AboutBanner = () => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="mb-20 px-10">
+      <div className="mb-20 px-5 lg:px-10">
         <p className="banner-text text-primary">
           <span className="font-semibold">OK Group Of Companies</span>
         </p>

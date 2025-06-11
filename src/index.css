@@ -40,11 +40,11 @@ body {
 }
 
 .sections {
-  @apply px-10 lg:px-20 py-20;
+  @apply px-5 lg:px-20 py-20;
 }
 
 .banner-text {
-  @apply text-[24px] lg:text-[40px] font-medium;
+  @apply text-[24px] md:text-[28px] lg:text-[40px] font-semibold;
 }
 
 .header-text {
@@ -56,5 +56,5 @@ body {
 }
 
 .button {
-  @apply px-7 py-2.5 rounded-xl font-semibold;
+  @apply px-7 py-2.5 rounded-xl font-semibold hover:scale-105 transition-all duration-300;
 }

@@ -5,7 +5,7 @@ import bg from "./../../assets/image/contact/contactBanner.png";
 const ServiceBanner = ({ banner }) => {
   return (
     <div
-      className="px-5 mx-auto min-h-[100vh] flex items-end"
+      className="mx-auto min-h-[100vh] flex items-end"
       style={{
         backgroundImage: `url(${banner.image})`,
         backgroundSize: "cover",
@@ -13,9 +13,9 @@ const ServiceBanner = ({ banner }) => {
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="mb-20 px-10">
-        <p className="banner-text text-primary flex items-center">
-          <img src={banner.logo} alt="logo" />
+      <div className="mb-20 px-5  lg:px-20">
+        <p className="banner-text text-primary flex flex-wrap">
+          <img src={banner.logo} alt="logo" className="" />
           <span className="font-semibold">{banner.name}</span>
         </p>
       </div>
