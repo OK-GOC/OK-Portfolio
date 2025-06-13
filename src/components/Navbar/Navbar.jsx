@@ -117,8 +117,8 @@ const Navbar = () => {
                     onClick={() => setIsDropdownOpen(false)}
                     className={`block px-4 py-2 text-sm font-medium transition-colors duration-200 hover:bg-gray-100 ${
                       location.pathname === item.path
-                        ? "text-primary bg-gray-50"
-                        : "text-gray-700 hover:text-primary"
+                        ? "text-primary bg-gray-50 hover:translate-y-[-2px] transition-all duration-300"
+                        : "text-gray-700 hover:translate-y-[-2px] transition-all duration-300"
                     }`}
                   >
                     {item.label}

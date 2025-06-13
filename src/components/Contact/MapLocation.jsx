@@ -11,10 +11,10 @@ function MapLocation() {
           scrolling="no"
           marginHeight="0"
           marginWidth="0"
-          src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(Testing%20)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+          src="https://maps.google.com/maps?width=100%25&amp;height=400&amp;hl=en&amp;q=Ok%20Tours%20Yangon+(OK%20Group%20of%20Companies)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         >
           <a href="https://www.mapsdirections.info/calcular-la-población-en-un-mapa">
-            Mapa de población interactivo
+            Calcular Población en el Mapa
           </a>
         </iframe>
       </div>

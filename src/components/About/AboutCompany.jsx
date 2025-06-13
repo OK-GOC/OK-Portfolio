@@ -7,11 +7,13 @@ const AboutCompany = () => {
         <div className="w-full md:w-[45%] flex justify-center items-center">
           <div>
             <h1 className="header-text">Established in 2002</h1>
-            <p className="body-text mt-5">
-              OK Group Of Companies Headquartered at No. B (3/5), Mali Kha
-              Housing, Bawamyine Ward, Thingangyun Township, Yangon Region, is
-              dedicated to providing dependable, responsible, and high-quality
-              services across Myanmar.
+            <p className="body-text mt-5 ">
+              <span className="font-semibold">
+                OK Group Of Companies Headquartered at No. B (3/5), Mali Kha
+                Housing, Bawamyine Ward, Thingangyun Township, Yangon Region, is
+                dedicated to providing dependable, responsible, and high-quality
+                services across Myanmar.
+              </span>
             </p>
           </div>
         </div>
@@ -23,21 +25,26 @@ const AboutCompany = () => {
         <div className={`w-full md:w-[55%]`}>
           <div className="md:mr-20">
             <p className="body-text mt-5 ">
-              With a strong vision to become a trusted industry leader
-              supporting national development, the company focuses on
-              government-related projects-especially in public infrastructure,
-              construction, industrial facilities and energy.
+              <span className="font-semibold">
+                {" "}
+                With a strong vision to become a trusted industry leader
+                supporting national development, the company focuses on
+                government-related projects-especially in public infrastructure,
+                construction, industrial facilities and energy.
+              </span>
             </p>
           </div>
         </div>
 
         <div className="w-full md:w-[55%]">
           <p className="body-text mt-5">
-            Currently, OK GROUP OF COMPANIES is carrying out a floating solar
-            power project and working closely with the government on electricity
-            distribution. The company is also building strategic partnerships
-            with international firms through joint ventures to expand its reach
-            and capabilities.
+            <span className="font-semibold">
+              Currently, OK GROUP OF COMPANIES is carrying out a floating solar
+              power project and working closely with the government on
+              electricity distribution. The company is also building strategic
+              partnerships with international firms through joint ventures to
+              expand its reach and capabilities.
+            </span>
           </p>
         </div>
       </div>

@@ -16,7 +16,7 @@ const gocs = [
     image: company11,
     name: (
       <span>
-        OK Group of <br /> Companies Limited
+        OK Group of <br /> Companies
       </span>
     ),
   },
@@ -37,7 +37,7 @@ const gocs = [
       <span>
         Gold Mine Trading
         <br />
-        Companies Limted
+        Companies Limited
       </span>
     ),
   },
@@ -54,7 +54,7 @@ const gocs = [
   {
     id: 6,
     image: company5,
-    name: <span>OK Travel & Tours</span>,
+    name: <span>OK Travels & Tours</span>,
   },
   {
     id: 7,

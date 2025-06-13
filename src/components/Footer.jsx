@@ -14,7 +14,7 @@ const Footer = () => {
             </p>
           </div>
           <p className="text-[16px] md:text-[18px] lg:text-[20px] font-semibold text-primary mt-5">
-            NoB(3/5),Malikha Housing , Yadanar Main Road, Thingangyun Tsp,Yangon
+            NoB(3/5),Malikha Housing, Yadanar Main Road, Thingangyun Tsp,Yangon
           </p>
         </div>
 
@@ -25,15 +25,15 @@ const Footer = () => {
                 Useful Links
               </h2>
               <ul className="mt-2 space-y-5 mt-5">
-                <li className="">
+                <li className="hover:scale-105 transition-all duration-300">
                   <Link
                     to="/about"
-                    className="text-[16px] font-medium text-primary hover:translate-x-2 transition-all duration-300"
+                    className="text-[16px] font-medium text-primary"
                   >
                     About OK Group Of Companies
                   </Link>
                 </li>
-                <li className="">
+                <li className="hover:scale-105 transition-all duration-300">
                   <Link
                     to="/service"
                     onClick={() => {
@@ -44,7 +44,7 @@ const Footer = () => {
                     Our Companies
                   </Link>
                 </li>
-                <li className="">
+                <li className="hover:scale-105 transition-all duration-300">
                   <Link
                     to="/service"
                     onClick={() => {
@@ -64,16 +64,17 @@ const Footer = () => {
               <h2 className="text-[18px] text-primary font-semibold">
                 Visit Us On
               </h2>
-              <div className="flex flex-row md:flex-col gap-10">
-                <p className="mt-5 font-medium text-primary text-[12px]">
+              <div className="flex flex-row md:flex-col gap-10 md:gap-0">
+                <p className="mt-5 font-medium text-primary hover:scale-105 transition-all duration-300">
                   <p className="flex items-center gap-5">
-                    <FaFacebook /> <span>Facebook</span>
+                    <FaFacebook />{" "}
+                    <span className="text-text-[14px]">Facebook</span>
                   </p>
                 </p>
-                <p className="mt-5 font-medium text-primary text-[12px]">
+                <p className="mt-5 font-medium text-primary text-[14px] hover:scale-105 transition-all duration-300">
                   <a
                     href="mailto:carenekontact@mail.com"
-                    className="hover:text-green-300 flex items-center gap-5"
+                    className="flex items-center gap-5"
                   >
                     <FaViber />
                     Viber
