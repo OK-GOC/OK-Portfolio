@@ -4,12 +4,16 @@ const Message = () => {
   return (
     <div className="sections">
       <div className="flex flex-col md:flex-row items-center gap-20">
-        <img src={ceo} alt="ceo" className="order-2 md:order-1" />
+        <img
+          src={ceo}
+          alt="ceo"
+          className="order-2 md:order-1 w-[250px] md:w-[400px]"
+        />
         <div className="max-w-2xl order-1 md:order-2">
           <p className="text-[20px] md:text-[24px] lg:text-[32px] font-semibold">
             Our CEO’s Message
           </p>
-          <p className="text-[24px] md:text-[32px] font-semibold text-primary mt-5">
+          <p className="text-[24px] md:text-[28px] lg:text-[32px] font-semibold text-primary mt-5">
             As we move forward, our vision is clear: to grow with Myanmar, build
             for Myanmar, and shape a brighter future - together!
           </p>
@@ -18,7 +22,7 @@ const Message = () => {
           </p>
         </div>
       </div>
-      <div className="body-text space-y-10 mt-10">
+      <div className="body-text space-y-10 mt-10" style={{ lineHeight: "2" }}>
         <p className="font-semibold">
           At OK Group of Companies, we measure success not just in profits, but
           in the lasting impact we create for Myanmar and its people. Since our

@@ -5,7 +5,7 @@ const OurMilestone = () => {
   return (
     <div className="sections bg-[#F8F8F8] ">
       <h1 className="header-text">Our Milestone</h1>
-      <div className="">
+      <div className="mt-10">
         <img src={milestone1} alt="" className="w-full" />
         <img src={milestone2} alt="" className="w-full" />
       </div>

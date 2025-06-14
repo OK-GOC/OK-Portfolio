@@ -5,7 +5,7 @@ import bg from "./../../assets/image/contact/contactBanner.png";
 const ContactBanner = () => {
   return (
     <div
-      className="px-5 mx-auto h-[70vh] md:min-h-[100vh] flex items-end"
+      className="px-5 mx-auto h-[50vh] md:min-h-[100vh] flex items-end"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",

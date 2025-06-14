@@ -6,7 +6,7 @@ const MissionVison = () => {
       <div className="flex flex-col md:flex-row gap-20 max-w-5xl mx-auto">
         <div className="w-full md:w-1/2">
           <h1 className="flex items-center gap-2 header-text">
-            <TiEye /> <span>Our Vision</span>
+            <TiEye size={45} /> <span>Our Vision</span>
           </h1>
           <p className="body-text mt-5">
             Our vision is to be a leading organization recognized for excellence
@@ -23,7 +23,7 @@ const MissionVison = () => {
         </div>
         <div className="w-full md:w-1/2">
           <h1 className="flex items-center gap-2 header-text">
-            <TbTargetArrow /> <span>Our Mission</span>
+            <TbTargetArrow size={45} /> <span>Our Mission</span>
           </h1>
           <p className="body-text mt-5">
             To drive sustainable growth and innovation across diverse industries

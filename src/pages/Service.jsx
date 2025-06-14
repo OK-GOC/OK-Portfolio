@@ -1,5 +1,6 @@
 import ServiceBanner from "../components/Service/ServiceBanner";
 import logo from "./../assets/image/goc/companies3.png";
+import logofour from "./../assets/image/goc/companies1.png";
 import logothree from "./../assets/image/goc/companies2.png";
 import logofive from "./../assets/image/goc/companies5.png";
 import logosix from "./../assets/image/goc/companies6.png";
@@ -115,7 +116,7 @@ const companys = [
   {
     id: 4,
     banner: {
-      logo: logothree,
+      logo: logofour,
       name: (
         <span>
           GOLD MINE INTERNATIONAL CO.,LTD <br /> (Employment Agency)
@@ -124,7 +125,7 @@ const companys = [
       image: bannerFour,
     },
     about: {
-      header: "Established in 2006",
+      header: "Since its inception in 2006",
       image: aboutFour,
       textone:
         "Gold Mine Company Limited is a prominent overseas employment agency operating under the umbrella of OK Group of Companies. The company has been firmly committed to contributing to Myanmar's economic development by enhancing the country's foreign currency earnings through the legal and systematic deployment of skilled workers to international markets.",

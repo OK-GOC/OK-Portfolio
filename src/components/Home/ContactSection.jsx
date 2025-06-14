@@ -5,7 +5,7 @@ import { MdOutlinePhone } from "react-icons/md";
 function ContactSection() {
   return (
     <div
-      className="sections h-[80vh] relative"
+      className="sections h-[50vh] md:h-[80vh] relative"
       style={{
         backgroundImage: `url(${contactbg})`,
         backgroundSize: "cover",

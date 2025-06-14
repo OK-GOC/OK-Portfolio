@@ -19,7 +19,7 @@ const Footer = () => {
         </div>
 
         <div className="flex w-full flex-col md:flex-row mt-10 md:mt-0">
-          <div className="flex flex-col w-full justify-end md:items-end">
+          <div className="flex flex-col w-full md:items-end">
             <div>
               <h2 className="text-[18px] font-semibold text-primary">
                 Useful Links
@@ -33,7 +33,7 @@ const Footer = () => {
                     About OK Group Of Companies
                   </Link>
                 </li>
-                <li className="hover:scale-105 transition-all duration-300">
+                {/* <li className="hover:scale-105 transition-all duration-300">
                   <Link
                     to="/service"
                     onClick={() => {
@@ -43,10 +43,10 @@ const Footer = () => {
                   >
                     Our Companies
                   </Link>
-                </li>
+                </li> */}
                 <li className="hover:scale-105 transition-all duration-300">
                   <Link
-                    to="/service"
+                    to="/contact"
                     onClick={() => {
                       window.scrollTo(0, 0);
                     }}
