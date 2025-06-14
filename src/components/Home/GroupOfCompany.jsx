@@ -43,7 +43,7 @@ const gocs = [
   },
   {
     id: 5,
-    image: company4,
+    image: company3,
     name: (
       <span>
         GOLD MINE TRADING STEEL <br /> FACTORY PRODUCTION AND <br />{" "}
@@ -94,8 +94,14 @@ const GroupOfCompany = () => {
               key={go.id}
               className="flex flex-col items-center justify-center mt-20"
             >
-              <img src={go.image} alt={go.name} width={150} height={150} />
-              <p className="mt-2 text-center text-primary font-semibold text-[12px]">
+              <img
+                src={go.image}
+                alt={go.name}
+                width={150}
+                height={150}
+                className="border border-gray-50 shadow-md rounded-lg"
+              />
+              <p className="text-center text-primary font-semibold text-[12px] mt-2">
                 {go.name}
               </p>
             </div>
