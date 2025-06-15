@@ -17,7 +17,14 @@ const HeroBanner = () => {
         </div>
       </div>
       <div className="w-full md:w-[40%] order-1 md:order-2 relative">
-        <div className="md:filter flex items-center justify-center">
+        <div className="filter items-center justify-center hidden md:flex">
+          <img
+            src={logo}
+            alt="logo"
+            className="w-[70%] md:w-full h-[50vh] md:h-[100vh]"
+          />
+        </div>
+        <div className="flex items-center justify-center md:hidden">
           <img
             src={logo}
             alt="logo"

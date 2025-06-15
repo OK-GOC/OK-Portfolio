@@ -12,7 +12,7 @@ function AboutBusiness({ about }) {
           </div>
         </div>
         <div className="w-full md:w-[55%] mt-5 md:mt-0 md:ml-20">
-          <img src={about.image} alt="aboutone" className="rounded-lg" />
+          <img src={about.image} alt="aboutone" className="object-cover" />
         </div>
       </div>
       <div className="flex flex-col md:flex-row mt-3">

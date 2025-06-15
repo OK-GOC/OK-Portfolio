@@ -14,7 +14,7 @@ import bannerone from "./../assets/image/service/one/bannerOne.png";
 import aboutone from "./../assets/image/service/one/aboutOne.png";
 
 import bannerTwo from "./../assets/image/service/two/bannerTwo.png";
-import aboutTwo from "./../assets/image/service/two/aboutTwo.png";
+import aboutTwo from "./../assets/image/service/two/aboutTwo.jpg";
 import aboutfull from "./../assets/image/service/two/abouttwo.jpg";
 
 import bannerThree from "./../assets/image/service/three/bannerThree.png";

@@ -1,8 +1,11 @@
 import logo from "./../assets/image/logo.svg";
 import { Link } from "react-router-dom";
 import { FaFacebook, FaViber } from "react-icons/fa";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  // console.log(location.pathname);
   return (
     <footer className="sections bg-white">
       <div className="mx-auto flex flex-col md:flex-row">
@@ -25,14 +28,47 @@ const Footer = () => {
                 Useful Links
               </h2>
               <ul className="mt-2 space-y-5 mt-5">
-                <li className="hover:scale-105 transition-all duration-300">
-                  <Link
-                    to="/about"
-                    className="text-[16px] font-medium text-primary"
-                  >
-                    About OK Group Of Companies
-                  </Link>
-                </li>
+                {location.pathname !== "/" && (
+                  <li className="hover:scale-105 transition-all duration-300">
+                    <Link
+                      to="/"
+                      className="text-[16px] font-medium text-primary"
+                    >
+                      Home
+                    </Link>
+                  </li>
+                )}
+                {location.pathname !== "/about" && (
+                  <li className="hover:scale-105 transition-all duration-300">
+                    <Link
+                      to="/about"
+                      className="text-[16px] font-medium text-primary"
+                    >
+                      About OK Group Of Companies
+                    </Link>
+                  </li>
+                )}
+                {/* {location.pathname !== "/service" && (
+                  <li className="hover:scale-105 transition-all duration-300">
+                    <Link
+                      to="/service"
+                      className="text-[16px] font-medium text-primary"
+                    >
+                      Our Companies
+                    </Link>
+                  </li>
+                )} */}
+                {location.pathname !== "/contact" && (
+                  <li className="hover:scale-105 transition-all duration-300">
+                    <Link
+                      to="/contact"
+                      className="text-[16px] font-medium text-primary"
+                    >
+                      Contact
+                    </Link>
+                  </li>
+                )}
+
                 {/* <li className="hover:scale-105 transition-all duration-300">
                   <Link
                     to="/service"
@@ -44,17 +80,6 @@ const Footer = () => {
                     Our Companies
                   </Link>
                 </li> */}
-                <li className="hover:scale-105 transition-all duration-300">
-                  <Link
-                    to="/contact"
-                    onClick={() => {
-                      window.scrollTo(0, 0);
-                    }}
-                    className="text-[16px] font-medium text-primary hover:translate-x-2 transition-all duration-300"
-                  >
-                    Contact
-                  </Link>
-                </li>
               </ul>
             </div>
           </div>
@@ -65,13 +90,13 @@ const Footer = () => {
                 Visit Us On
               </h2>
               <div className="flex flex-row md:flex-col gap-10 md:gap-0">
-                <p className="mt-5 font-medium text-primary hover:scale-105 transition-all duration-300">
+                <p className="mt-5 font-medium text-primary hover:scale-105 transition-all duration-300 cursor-pointer">
                   <p className="flex items-center gap-5">
                     <FaFacebook />{" "}
                     <span className="text-text-[14px]">Facebook</span>
                   </p>
                 </p>
-                <p className="mt-5 font-medium text-primary text-[14px] hover:scale-105 transition-all duration-300">
+                <p className="mt-5 font-medium text-primary text-[14px] hover:scale-105 transition-all duration-300 cursor-pointer">
                   <a
                     href="mailto:carenekontact@mail.com"
                     className="flex items-center gap-5"

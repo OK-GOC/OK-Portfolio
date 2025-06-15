@@ -10,14 +10,20 @@ function CompanyAddress() {
           <h1 className="header-text mb-5">
             <span className="text-white">Contact Us</span>
           </h1>
-          <a href="mailto:okgroupofcompanies.org@gmail.com">
+          <a
+            href="mailto:okgroupofcompanies.mm@gmail.com "
+            className="cursor-pointer hover:text-blue-200 transition-all duration-300"
+          >
             <span className="flex items-center gap-2  lg:text-[20px] font-semibold">
               <CiMail size={24} />
-              okgroupofcompanies.org@gmail.com
+              okgroupofcompanies.mm@gmail.com
             </span>
           </a>
           <div className="border border-b-white my-5"></div>
-          <a href="tel:+9595064567">
+          <a
+            href="tel:+9595064567"
+            className="cursor-pointer hover:text-blue-200 transition-all duration-300"
+          >
             <span className="flex items-center gap-2 lg:text-[20px] font-semibold">
               <MdOutlinePhone size={24} />
               095064567
