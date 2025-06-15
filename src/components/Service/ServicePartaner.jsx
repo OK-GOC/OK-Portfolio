@@ -5,12 +5,12 @@ export default function ServicePartaner() {
   return (
     <div>
       <div className="grid grid-cols-1 md:grid-cols-2">
-        <div className="bg-[#FBD95A] h-[700px] flex items-center justify-center px-2">
-          <div className="text-primary max-w-lg">
+        <div className="bg-[#FBD95A] h-auto py-16 md:py-0 md:h-[700px] flex items-start justify-center px-2">
+          <div className="text-primary max-w-lg mt-20">
             <h1 className="header-text mb-5">
               <span className="text-primary">Our Partnership in Malaysia</span>
             </h1>
-            <div className="flex flex-col gap-2 text-[20px] font-semibold text-black">
+            <div className="flex flex-col gap-2 text-[16px] md:text-[20px] font-semibold text-black">
               <span>1. Seng Kong Shutter Industries Sdn Bhd</span>
               <span>2. Euro Done Sdn Bhd </span>
               <span>3. Macro Dimension Concrete Sdn Bhd </span>
@@ -24,12 +24,12 @@ export default function ServicePartaner() {
             </div>
           </div>
         </div>
-        <div className="bg-[#2D2AA1] h-[700px] flex items-center justify-center px-2">
-          <div className="text-white max-w-lg mb-6">
+        <div className="bg-[#2D2AA1] h-auto py-16 md:py-0 md:h-[700px] flex  items-start justify-center px-2">
+          <div className="text-white max-w-lg mt-20">
             <h1 className="header-text mb-5">
               <span className="text-white">Our Partnership in Thailand</span>
             </h1>
-            <div className="flex flex-col gap-2 text-[20px] font-semibold">
+            <div className="flex flex-col gap-2 text-[16px] md:text-[20px] font-semibold">
               <span>1. Phuket Built Co.,Ltd</span>
               <span>2. NC Asia Construction Co.,Ltd</span>
               <span>3. MNsS Construction @Service Co.,Ltd</span>

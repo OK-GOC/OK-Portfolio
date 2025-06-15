@@ -26,13 +26,13 @@ const gocs = [
     id: 2,
     image: company1,
     name: <span>Gold Mine International CO.LTD</span>,
-    link: "/service/0",
+    link: "/service/3",
   },
   {
     id: 3,
     image: company2,
     name: <span>Gold Mine Training Center</span>,
-    link: "/service/1",
+    link: "/service/2",
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const gocs = [
         Companies Limited
       </span>
     ),
-    link: "/service/2",
+    link: "/service/0",
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const gocs = [
         MANUFACTURING
       </span>
     ),
-    link: "/service/3",
+    link: "/service/1",
   },
   {
     id: 6,
