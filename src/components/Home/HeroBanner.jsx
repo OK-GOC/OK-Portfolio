@@ -8,7 +8,7 @@ const HeroBanner = () => {
   const navigate = useNavigate();
   return (
     <div
-      className="px-5 mx-auto min-h-[100vh] flex flex-col md:flex-row pt-20 md:pt-0 "
+      className="px-5 mx-auto h-[70vh] flex flex-col md:flex-row pt-20 md:pt-0 "
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
@@ -31,11 +31,11 @@ const HeroBanner = () => {
         </div>
       </div>
       <div className="w-full md:w-[40%] order-1 md:order-2 relative">
-        {/* <div className="filter flex items-center justify-center">
+        {/* <div className="flex items-center justify-center">
           <img
             src={logo}
             alt="logo"
-            className="w-[70%] md:w-full h-[50vh] md:h-[100vh]"
+            className="w-[70%] md:w-full h-[50vh] md:h-[50vh]"
           />
         </div> */}
         {/* <div className="flex items-center justify-center md:hidden">

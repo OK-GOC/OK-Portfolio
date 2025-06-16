@@ -99,7 +99,7 @@ const GroupOfCompany = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <div className="sections">
+      <div className="sections bg-[#F8F8F8]">
         <h1 className="header-text text-center">Our Group Of Companies</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {gocs.map((go) => (
