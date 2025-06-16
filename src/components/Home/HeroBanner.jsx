@@ -1,5 +1,5 @@
-import logo from "./../../assets/image/logo.svg";
-import bg from "./../../assets/image/service/one/bannerOne.png";
+// import logo from "./../../assets/image/logo.svg";
+import bg from "./../../assets/image/home/heroBanner.jpg";
 
 // import { GradualSpacing } from "../animaition/GradualSpacing";
 import { useNavigate } from "react-router-dom";
@@ -8,7 +8,7 @@ const HeroBanner = () => {
   const navigate = useNavigate();
   return (
     <div
-      className="px-5 mx-auto h-[50vh] lg:h-[70vh] flex flex-col justify-center md:justify-start items-end md:flex-row pt-20 md:pt-0 "
+      className="px-5 mx-auto h-[50vh] lg:h-[70vh] flex flex-col justify-center md:justify-start items-end md:flex-row pt-20 md:pt-0"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
