@@ -23,7 +23,7 @@ const HeroBanner = () => {
           </p>
 
           <button
-            className="bg-primary text-white mt-2 button"
+            className="bg-primary text-white mt-5 button"
             onClick={() => navigate("/contact")}
           >
             Let’s shape Together
