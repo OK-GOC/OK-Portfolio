@@ -113,7 +113,7 @@ const GroupOfCompany = () => {
                 alt={go.name}
                 width={150}
                 height={150}
-                className="border border-gray-50 shadow-md rounded-lg hover:scale-105 transition-all duration-300"
+                className=" rounded-lg hover:scale-105 transition-all duration-300"
               />
               <p className="text-center text-primary font-semibold text-[12px] mt-2">
                 {go.name}
