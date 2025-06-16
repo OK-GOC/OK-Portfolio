@@ -58,7 +58,7 @@ const Navbar = () => {
 
   return (
     <nav className="">
-      <div className="bg-white/30 backdrop-blur-md mx-auto flex items-center py-2 md:py-5 justify-between px-5 md:px-40">
+      <div className="bg-white/30 backdrop-blur-md mx-auto flex items-center py-2 md:py-5 justify-between px-5 lg:px-20">
         {/* Logo */}
         <Link to="/" className="">
           <img src={logo} alt="Logo" className="w-20 md:w-14" />
