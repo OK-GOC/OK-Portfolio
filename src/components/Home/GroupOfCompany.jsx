@@ -66,7 +66,7 @@ const gocs = [
   {
     id: 7,
     image: company6,
-    name: <span>Ruber Sinar Global CO.LTD</span>,
+    name: <span className="uppercase">Ruber Sinar Global CO.LTD</span>,
     link: "/service/5",
   },
   {
