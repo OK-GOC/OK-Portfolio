@@ -17,7 +17,7 @@ const HeroBanner = () => {
       }}
     >
       <div className="w-full md:w-[60%] flex items-center order-2 md:order-1">
-        <div className="mb-0 md:mb-10 lg:ps-20">
+        <div className="mb-0 md:mb-12 lg:ps-20">
           <p className="banner-text text-primary max-w-lg">
             To grow with Myanmar, build for Myanmar, and shape a brighter future
           </p>
