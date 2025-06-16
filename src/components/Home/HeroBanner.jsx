@@ -11,8 +11,8 @@ const HeroBanner = () => {
       className="px-5 mx-auto h-[50vh] lg:h-[70vh] flex flex-col justify-center md:justify-start items-end md:flex-row pt-20 md:pt-0"
       style={{
         backgroundImage: `url(${bg})`,
-        backgroundSize: "cover",
-        backgroundPosition: "center",
+        backgroundSize: "fit",
+        backgroundPosition: "top",
         backgroundRepeat: "no-repeat",
       }}
     >
