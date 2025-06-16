@@ -1,4 +1,5 @@
 import logo from "./../../assets/image/logo.svg";
+import bg from "./../../assets/image/service/one/bannerOne.png";
 
 // import { GradualSpacing } from "../animaition/GradualSpacing";
 import { useNavigate } from "react-router-dom";
@@ -6,7 +7,15 @@ import { useNavigate } from "react-router-dom";
 const HeroBanner = () => {
   const navigate = useNavigate();
   return (
-    <div className="px-5 mx-auto min-h-[100vh] flex flex-col md:flex-row pt-20 md:pt-0 ">
+    <div
+      className="px-5 mx-auto min-h-[100vh] flex flex-col md:flex-row pt-20 md:pt-0 "
+      style={{
+        backgroundImage: `url(${bg})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+        backgroundRepeat: "no-repeat",
+      }}
+    >
       <div className="w-full md:w-[60%] flex items-end order-2 md:order-1">
         <div className="mb-20 lg:ps-20">
           <p className="banner-text text-primary max-w-lg">
@@ -22,13 +31,13 @@ const HeroBanner = () => {
         </div>
       </div>
       <div className="w-full md:w-[40%] order-1 md:order-2 relative">
-        <div className="filter flex items-center justify-center">
+        {/* <div className="filter flex items-center justify-center">
           <img
             src={logo}
             alt="logo"
             className="w-[70%] md:w-full h-[50vh] md:h-[100vh]"
           />
-        </div>
+        </div> */}
         {/* <div className="flex items-center justify-center md:hidden">
           <img
             src={logo}
