@@ -3,7 +3,7 @@
 const ServiceBanner = ({ banner }) => {
   return (
     <div
-      className="mx-auto h-[50vh] md:min-h-[100vh] flex items-end"
+      className="mx-auto h-[50vh] md:h-[70vh] flex items-end"
       style={{
         backgroundImage: `url(${banner.image})`,
         backgroundSize: "cover",
