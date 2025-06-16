@@ -90,17 +90,22 @@ const Footer = () => {
                 Visit Us On
               </h2>
               <div className="flex flex-row md:flex-col gap-10 md:gap-0">
-                <p className="mt-5 font-medium text-primary hover:scale-105 transition-all duration-300 cursor-pointer">
+                <p
+                  className="mt-5 font-medium text-primary hover:scale-105 transition-all duration-300 cursor-pointer"
+                  onClick={() =>
+                    window.open(
+                      "https://www.facebook.com/share/16eEWiY3M4/?mibextid=wwXIfr",
+                      "_blank"
+                    )
+                  }
+                >
                   <p className="flex items-center gap-5">
                     <FaFacebook />{" "}
                     <span className="text-text-[14px]">Facebook</span>
                   </p>
                 </p>
                 <p className="mt-5 font-medium text-primary text-[14px] hover:scale-105 transition-all duration-300 cursor-pointer">
-                  <a
-                    href="mailto:carenekontact@mail.com"
-                    className="flex items-center gap-5"
-                  >
+                  <a href="tel:+9595064567" className="flex items-center gap-5">
                     <FaViber />
                     Viber
                   </a>
