@@ -1,5 +1,5 @@
 // import logo from "./../../assets/image/logo.svg";
-import bg from "./../../assets/image/home/heroBanner.jpg";
+import bg from "./../../assets/image/home/download.jpeg";
 
 // import { GradualSpacing } from "../animaition/GradualSpacing";
 import { useNavigate } from "react-router-dom";
