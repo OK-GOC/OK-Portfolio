@@ -25,7 +25,11 @@ const gocs = [
   {
     id: 2,
     image: company1,
-    name: <span>Gold Mine International CO.LTD</span>,
+    name: (
+      <span>
+        Gold Mine International <br /> CO.LTD (Employment Agency)
+      </span>
+    ),
     link: "/service/3",
   },
   {
@@ -64,13 +68,17 @@ const gocs = [
   {
     id: 7,
     image: company6,
-    name: <span className="uppercase">Ruber Sinar Global CO.LTD</span>,
+    name: <span className="uppercase">Ruber Sinar Global CO.,LTD</span>,
     link: "/service/5",
   },
   {
     id: 8,
     image: company7,
-    name: <span>Avenue 101 Holding co.,ltd</span>,
+    name: (
+      <span>
+        Avenue 101 Holding co.,ltd <br /> (Entertainment Group)
+      </span>
+    ),
     link: "/service/6",
   },
   {
@@ -78,7 +86,7 @@ const gocs = [
     image: company8,
     name: (
       <span>
-        168 Success Real Estate <br /> (Myanmar co.,ltd)
+        168 Success Real Estate <br /> (Myanmar) co.,ltd
       </span>
     ),
     link: "/service/7",
@@ -88,7 +96,7 @@ const gocs = [
     image: company9,
     name: (
       <span>
-        Aatlas Builders Building & <br /> decoration co.,ltd
+        Atlas Builders Building & <br /> decoration co.,ltd
       </span>
     ),
     link: "/service/8",

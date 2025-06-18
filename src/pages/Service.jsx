@@ -86,9 +86,9 @@ const companys = [
       image: aboutTwo,
       imagefull: aboutfull,
       textone:
-        "Gold Mine Trading Co., LTD.,  operates a modern steel manufacturing facility in Myanmar, reducing reliance on imports by producing high-quality steel products locally.",
+        "Gold Mine Trading Co., LTD., established in 2012, operates a modern steel manufacturing facility in Myanmar, reducing reliance on imports by producing high-quality steel products locally.",
       texttwo:
-        "By contributing to foreign currency income and tax revenue, we actively support the national economy. Looking ahead, we aim to expand through international technical partnerships, positioning Myanmar as a self-reliant steel producer.",
+        "Our product range includes Rebar, Angle Steel, U Beam, H-shaped steel, Disc Round, and Square Tube - manufactured using advanced machinery and guided by expert engineers and skilled professionals.",
       textthree:
         "By contributing to foreign currency income and tax revenue, we actively support the national economy. Looking ahead, we aim to expand through international technical partnerships, positioning Myanmar as a self-reliant steel producer.",
     },

@@ -18,7 +18,7 @@ const ServiceBanner = ({ banner }) => {
             alt="logo"
             className="w-[100px] h-[100px] md:w-[150px] md:h-[150px]"
           />
-          <span className="font-semibold">{banner.name}</span>
+          <span className="font-semibold uppercase">{banner.name}</span>
         </p>
       </div>
     </div>
