@@ -1,5 +1,5 @@
 // import logo from "./../../assets/image/logo.svg";
-import bg from "./../../assets/image/home/heroBanner.jpg";
+import bg from "./../../assets/image/home/HeroBanner.jpg";
 
 // import { GradualSpacing } from "../animaition/GradualSpacing";
 import { useNavigate } from "react-router-dom";
@@ -18,12 +18,12 @@ const HeroBanner = () => {
     >
       <div className="w-full md:w-[60%] flex items-center order-2 md:order-1">
         <div className="mb-0 md:mb-12 lg:ps-20">
-          <p className="banner-text text-primary max-w-lg">
+          <p className="banner-text text-white max-w-lg">
             To grow with Myanmar, build for Myanmar, and shape a brighter future
           </p>
 
           <button
-            className="bg-primary text-white mt-5 button"
+            className="bg-white text-primary mt-5 button"
             onClick={() => navigate("/contact")}
           >
             Let’s shape Together

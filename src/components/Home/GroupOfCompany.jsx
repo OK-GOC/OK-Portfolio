@@ -31,19 +31,17 @@ const gocs = [
   {
     id: 3,
     image: company2,
-    name: <span>Gold Mine Training Center</span>,
+    name: (
+      <span>
+        Gold Mine Training Center <br /> (Myanmar - hongkong)
+      </span>
+    ),
     link: "/service/2",
   },
   {
     id: 4,
     image: company3,
-    name: (
-      <span>
-        Gold Mine Trading
-        <br />
-        Companies Limited
-      </span>
-    ),
+    name: <span>Gold Mine Trading Co.,ltD</span>,
     link: "/service/0",
   },
   {
@@ -60,7 +58,7 @@ const gocs = [
   {
     id: 6,
     image: company5,
-    name: <span>OK Travels & Tours</span>,
+    name: <span>OK Travels & Tours Co.,ltD</span>,
     link: "/service/4",
   },
   {
@@ -72,25 +70,38 @@ const gocs = [
   {
     id: 8,
     image: company7,
-    name: <span>Avenue 101</span>,
+    name: <span>Avenue 101 Holding co.,ltd</span>,
     link: "/service/6",
   },
   {
     id: 9,
     image: company8,
-    name: <span>168 Success Real Estate Agency</span>,
+    name: (
+      <span>
+        168 Success Real Estate <br /> (Myanmar co.,ltd)
+      </span>
+    ),
     link: "/service/7",
   },
   {
     id: 10,
     image: company9,
-    name: <span>Altas Builders</span>,
+    name: (
+      <span>
+        Aatlas Builders Building & <br /> decoration co.,ltd
+      </span>
+    ),
     link: "/service/8",
   },
   {
     id: 11,
     image: company10,
-    name: <span>Liquor Pro</span>,
+    name: (
+      <span>
+        Liquor Pro <br />
+        (liquor wholesale)
+      </span>
+    ),
     link: "/service/9",
   },
 ];
@@ -115,7 +126,7 @@ const GroupOfCompany = () => {
                 height={150}
                 className="border border-gray-200 shadow-lg rounded-lg hover:scale-105 transition-all duration-300"
               />
-              <p className="text-center text-primary font-semibold text-[12px] mt-2">
+              <p className="text-center text-primary font-semibold text-[12px] mt-2 uppercase">
                 {go.name}
               </p>
             </div>

@@ -6,7 +6,7 @@ import logo from "./../../assets/image/logo.svg";
 const AboutBanner = () => {
   return (
     <div
-      className="px-5 mx-auto h-[50vh] md:h-[70vh] flex items-end"
+      className="px-5 mx-auto h-[50vh] md:h-[85vh] flex items-end"
       style={{
         backgroundImage: `url(${bg})`,
         backgroundSize: "cover",

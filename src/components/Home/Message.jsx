@@ -17,8 +17,11 @@ const Message = () => {
             As we move forward, our vision is clear: to grow with Myanmar, build
             for Myanmar, and shape a brighter future - together!
           </p>
-          <p className="text-[16px] md:text-[20px] lg:text-[24px] font-medium mt-2">
-            Sincerely, Mr.Oake Khaung Chairperson
+          <p
+            className="text-[16px] md:text-[20px] lg:text-[24px] font-semibold mt-2"
+            style={{ lineHeight: "2" }}
+          >
+            Sincerely, <br /> Mr.Oake Khaung <br /> Chairperson
           </p>
         </div>
       </div>
