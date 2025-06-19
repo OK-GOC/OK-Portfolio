@@ -27,7 +27,7 @@ const gocs = [
     image: company1,
     name: (
       <span>
-        Gold Mine International <br /> CO.LTD (Employment Agency)
+        Gold Mine International <br /> CO.,LTD (Employment Agency)
       </span>
     ),
     link: "/service/3",

@@ -204,7 +204,7 @@ const companys = [
       logo: logoeight,
       name: (
         <span>
-          168 SUCCESS REAL ESTATE <br /> (Myanmar Co., LTD)
+          168 SUCCESS REAL ESTATE <br /> (Myanmar Co.,LTD)
         </span>
       ),
       image: bannerEight,
