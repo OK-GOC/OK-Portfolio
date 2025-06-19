@@ -45,7 +45,7 @@ const Navbar = () => {
     { label: "GOLD MINE TRAINING CENTER ", path: "/service/2" },
     { label: "GOLD MINE INTERNATIONAL", path: "/service/3" },
     { label: "OK TRAVELS & TOURS", path: "/service/4" },
-    { label: "RUBER SINER Global", path: "/service/5" },
+    { label: "RUBER SINAR Global", path: "/service/5" },
     { label: "AVENUE MYANMAR HOLDING", path: "/service/6" },
     { label: "168 SUCCESS REAL ESTATE", path: "/service/7" },
     { label: "ATLAS BUILDERS BUILDING & DECORATION", path: "/service/8" },
