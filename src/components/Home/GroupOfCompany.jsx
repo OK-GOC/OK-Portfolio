@@ -76,7 +76,7 @@ const gocs = [
     image: company7,
     name: (
       <span>
-        Avenue 101 Holding co.,ltd <br /> (Entertainment Group)
+        Avenue Myanmar Holding Co.,ltd <br /> (Entertainment Group)
       </span>
     ),
     link: "/service/6",

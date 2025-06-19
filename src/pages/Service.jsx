@@ -159,7 +159,7 @@ const companys = [
     id: 6,
     banner: {
       logo: logosix,
-      name: "RUBER SINER Global  CO.,LTD ",
+      name: "RUBER SINAR GLOBAL CO.,LTD ",
       image: bannerSix,
     },
     about: {
