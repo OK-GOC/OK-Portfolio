@@ -11,12 +11,12 @@ function CompanyAddress() {
             <span className="text-white">Contact Us</span>
           </h1>
           <a
-            href="mailto:okgroupofcompanies.mm@gmail.com "
+            href="mailto:info@okgroupofcompanies.business"
             className="cursor-pointer hover:text-blue-200 transition-all duration-300"
           >
             <span className="flex items-center gap-2  lg:text-[20px] font-semibold">
               <CiMail size={24} />
-              okgroupofcompanies.mm@gmail.com
+              info@okgroupofcompanies.business
             </span>
           </a>
           <div className="border border-b-white my-5"></div>
