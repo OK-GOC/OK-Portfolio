@@ -39,8 +39,8 @@ function CompanyAddress() {
           <div>
             <span className="flex items-center gap-4 lg:text-[20px] font-semibold text-primary">
               <PiBuildingApartmentFill size={35} />
-              NoB(3/5),Malikha Housing , Yadanar Main Road, Thingangyun
-              Tsp,Yangon
+              No.45 , Rose Garden , Shwe Pinlon Housing , Shukinthar Street, 27
+              Quarter , North Dagon ,Ygn Tsp'
             </span>
           </div>
         </div>

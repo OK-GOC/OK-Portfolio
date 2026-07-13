@@ -17,7 +17,8 @@ const Footer = () => {
             </p>
           </div>
           <p className="text-[16px] md:text-[18px] lg:text-[20px] font-semibold text-primary mt-5">
-            NoB(3/5),Malikha Housing, Yadanar Main Road, Thingangyun Tsp,Yangon
+            No.45 , Rose Garden , Shwe Pinlon Housing , Shukinthar Street, 27
+            Quarter , North Dagon ,Ygn Tsp'
           </p>
         </div>
 
@@ -95,7 +96,7 @@ const Footer = () => {
                   onClick={() =>
                     window.open(
                       "https://www.facebook.com/share/16eEWiY3M4/?mibextid=wwXIfr",
-                      "_blank"
+                      "_blank",
                     )
                   }
                 >
