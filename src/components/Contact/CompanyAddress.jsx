@@ -21,12 +21,12 @@ function CompanyAddress() {
           </a>
           <div className="border border-b-white my-5"></div>
           <a
-            href="tel:+9595064567"
+            href="tel:+959888515511"
             className="cursor-pointer hover:text-blue-200 transition-all duration-300"
           >
             <span className="flex items-center gap-2 lg:text-[20px] font-semibold">
               <MdOutlinePhone size={24} />
-              095064567
+              09888515511
             </span>
           </a>
         </div>

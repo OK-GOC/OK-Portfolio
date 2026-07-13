@@ -106,7 +106,10 @@ const Footer = () => {
                   </p>
                 </p>
                 <p className="mt-5 font-medium text-primary text-[14px] hover:scale-105 transition-all duration-300 cursor-pointer">
-                  <a href="tel:+9595064567" className="flex items-center gap-5">
+                  <a
+                    href="tel:+959888515511"
+                    className="flex items-center gap-5"
+                  >
                     <FaViber />
                     Viber
                   </a>
